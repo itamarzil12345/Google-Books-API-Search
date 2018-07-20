@@ -1,0 +1,27 @@
+
+
+.sideBtn {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.line {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(7, 5, 5);
+  margin: 3px 0;
+}
+
+.sidebarMenuOn {
+  width: 300px;
+}
+
+.sidebarMenuOff {
+ 
+}
+
+.navbarOpenBtn {
+  float:left;
+  position: inline-block;
+}

@@ -1,0 +1,100 @@
+/* GENERAL MODAL STYLE */
+
+.overlay {
+  display: none;
+  position: fixed;
+  animation-duration: 0.4s;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlayOpen {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.overlayContent {
+  width: 500px;
+  min-height: 300px;
+  margin: 10% auto;
+  animation-duration: 0.5s;
+  background: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+/* INSERT STYLE */
+
+.errorMsgStyle {
+  color: red;
+}
+.insertBook {
+  margin-top: 4em;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  background-color: rgb(185, 189, 196);
+  color: white;
+  font-family: "Chela One", cursive;
+  padding: 0.3em;
+}
+
+.insertBook:hover {
+  background-color: rgb(137, 143, 153);
+}
+
+/* REMOVE STYLE */
+
+.removeBtnStyle {
+  font-size: 1.175em;
+  background-color: rgb(201, 184, 216);
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  cursor: pointer;
+  color: rgb(164, 124, 190);
+  border: none;
+  border-radius: 1em;
+  transition: 0.2s;
+  display: inline-block;
+}
+
+.removeBtnStyle:hover {
+  font-size: 1.175em;
+  background-color: rgb(232, 225, 238);
+
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  cursor: pointer;
+  color: rgb(164, 124, 190);
+  border: none;
+  border-radius: 1em;
+  display: inline-block;
+}
+
+/* EDIT STYLE */
+
+.editBtnStyle {
+  font-size: 1.175em;
+  background-color: rgb(201, 184, 216);
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  cursor: pointer;
+  color: rgb(164, 124, 190);
+  border: none;
+  border-radius: 1em;
+  transition: 0.2s;
+  display: inline-block;
+}
+
+.editBtnStyle:hover {
+  font-size: 1.175em;
+  background-color: rgb(232, 225, 238);
+
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  cursor: pointer;
+  color: rgb(164, 124, 190);
+  border: none;
+  border-radius: 1em;
+  display: inline-block;
+}

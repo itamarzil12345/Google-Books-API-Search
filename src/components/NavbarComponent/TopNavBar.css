@@ -1,0 +1,58 @@
+.topnav {
+  position: fixed;
+  background-color: rgb(230, 230, 230);
+  padding: 1px;
+  width: 100%;
+  color: #757a7e;
+  background-color: #5d7597;
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+  transition: 2s;
+}
+
+.topnav:hover {
+  position: fixed;
+  background-color: rgb(230, 230, 230);
+  padding: 1px;
+  width: 100%;
+  color: #757a7e;
+  background-color: #5d7597;
+  opacity: 1;
+}
+
+.searchBooksInput {
+  font-size: 2em;
+  color: #7e7575;
+  text-indent: 1.4em;
+  margin: 0.5em;
+  border-radius: 15px;
+  border: none;
+  font-family: "Gaegu", cursive;
+  outline: 0;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px;
+}
+
+.fa-search {
+  position: relative;
+  left: 2.4em;
+  color: black;
+  padding-left: 1em;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav input[type="text"],
+  .topnav .search-container button {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 14px;
+  }
+  .topnav input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+}
